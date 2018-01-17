@@ -10,8 +10,6 @@ public class GuesserScript : MonoBehaviour {
 
 
 
-
-
     // Use this for initialization
     private void Start () {
      
@@ -21,13 +19,23 @@ public class GuesserScript : MonoBehaviour {
         print("Pick a number between " + min +  " and " + max);
 
         //is the value GUESS
-        print("is the number 54?");
+        print("is the number " + guess + " ?");
         //instructions - Push these buttons
         print("UP Arrow for higher, DOWN Arrow for lower, ENTER if correct");
 	}
 	
 	// Update is called once per frame
-	public void Update () {
-        
+	 void Update () {
+        if (Input.GetKeyDown(KeyCode.UpArrow)) {
+            min = guess;
+            guess = (min + max) / 2;
+            print("is the number " + guess + " ?");
+        }
+        //Up Arrow
+        if (Input.GetKeyUp)
+        {
+         //Enter Arrow
+
+        }
 	}
 }
