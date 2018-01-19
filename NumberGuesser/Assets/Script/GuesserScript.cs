@@ -6,7 +6,8 @@ public class GuesserScript : MonoBehaviour {
 
    public int max;
    public int min;
-   public int guess;
+   private int guess;
+    public int count;
 
 
 
@@ -19,23 +20,45 @@ public class GuesserScript : MonoBehaviour {
         print("Pick a number between " + min +  " and " + max);
 
         //is the value GUESS
-        print("is the number " + guess + " ?");
+        NextGuess();
         //instructions - Push these buttons
         print("UP Arrow for higher, DOWN Arrow for lower, ENTER if correct");
+
+        max = max + 1;
 	}
-	
-	// Update is called once per frame
-	 void Update () {
+
+    private void NextGuess() {
+        //figure out how randomize gues*************************
+        count--;
+        guess = (min + max) / 2;
+        print("is the number " + guess + " ?");
+    }
+    
+
+    // Update is called once per frame
+    void Update() {
+
+     
+        //Up Arrow
         if (Input.GetKeyDown(KeyCode.UpArrow)) {
             min = guess;
-            guess = (min + max) / 2;
-            print("is the number " + guess + " ?");
+            NextGuess();
         }
-        //Up Arrow
-        if (Input.GetKeyUp)
-        {
-         //Enter Arrow
+        //Down Arrow
+        else if (Input.GetKeyDown(KeyCode.DownArrow)) {
+            max = guess;
+            NextGuess();
 
         }
+    
+            //Enter Key
+            else if (Input.GetKeyDown(KeyCode.Return))
+            {
+                print("Computer win!");
+
+            }
+    //IF count is zero, human wins
+        }
 	}
-}
+
+
