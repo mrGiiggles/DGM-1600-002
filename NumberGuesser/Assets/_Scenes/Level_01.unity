@@ -137,6 +137,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   max: 100
   min: 1
+  count: 6
 --- !u!4 &569707750
 Transform:
   m_ObjectHideFlags: 0

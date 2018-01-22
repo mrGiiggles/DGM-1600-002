@@ -1,0 +1,4 @@
+sceneSetups:
+- path: C:/Users/10826896/Documents/NBA/NumberGuesser/Assets/_Scenes/Level_01.unity
+  isLoaded: 1
+  isActive: 1
