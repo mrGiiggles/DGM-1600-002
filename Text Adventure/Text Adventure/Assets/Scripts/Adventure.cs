@@ -1,13 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Adventure : MonoBehaviour
 {
 
     public enum States { cell, window, cellDoor, bed, sleep, call, insult, search, bribeCellDoor, bribeWindow };
     public States currentState;
-
+    public Text textObject;
 
 
 
@@ -53,6 +54,10 @@ public class Adventure : MonoBehaviour
         {
             BribeKid();
         }
+        else if(currentState == States.call)
+        {
+            SnottyKid();
+        }
     } 
     private void Cell() {
         print("You are in a Jail cell. It's dirty, disgusting and smells revolting. \n" +
@@ -61,6 +66,12 @@ public class Adventure : MonoBehaviour
             "There is a Gate. \n" +
             "There is a Bed. \n" +
             "Press W for Widnow, G for Gate, B for Bed. \n");
+        textObject.text = "You are in a Jail cell. It's dirty, disgusting and smells revolting. \n" +
+            "You are trying to escape, look all around and find a way. \n" +
+            "There is a Window. \n" +
+            "There is a Gate. \n" +
+            "There is a Bed. \n" +
+            "Press W for Widnow, G for Gate, B for Bed. \n";
         if (Input.GetKeyDown(KeyCode.W)) { currentState = States.window; }
         if (Input.GetKeyDown(KeyCode.G)) { currentState = States.cellDoor; }
         if (Input.GetKeyDown(KeyCode.B)) { currentState = States.bed; }
@@ -80,7 +91,7 @@ public class Adventure : MonoBehaviour
     {
         print("You look outside through a small window to a busy street.\n" +
             "No one looks at you, they just move on in hordes.\n" +
-            "You spy a young street urchin. Probably has no respect for the law.\n" +
+            "You spy a kid on the street. hopefully, with no respect for Law.\n" +
             "Like you.\n" +
             "If you call to him, maybe he can help. Or maybe not.\n" +
             "Press C to call to him, G for the Gate and B to go the the Bed");
@@ -94,7 +105,7 @@ public class Adventure : MonoBehaviour
             "Not much here, to be honest.\n" +
             " You can see the guardsman on patrol. That's about it.\n" +
             "You notice the lock is easily pickable. Only if you had a lock pick.\n" +
-            "A Guardsman passes. \n"
+            "A Guardsman passes. \n" +
             "Moving on, Press B for the Bed, W for the Window, \n" +
             "and I to insult the passing Guard.");
         if (Input.GetKeyDown(KeyCode.W)) { currentState = States.window; }
@@ -137,8 +148,22 @@ public class Adventure : MonoBehaviour
             "It took until Nightfall until you got the lock pick.\n" +
             "The lock was trivial at best and you quickly heard a *click*.\n" +
             "Free at last you swung the bear door open and ran . . .\n" +
-            "into a guards sword. You died. Better luck next time mate.\n" +
+            "Into a guards sword. You died. Better luck next time mate.\n" +
             "Press C to start over again.");
         if (Input.GetKeyDown(KeyCode.C)) { currentState = States.cell; }
+    }
+    private void SnottyKid()
+    {
+        print(" You call for the kid to come over.\n" +
+            "Surprisingly he actually listened.\n" +
+            "You ask for help, a lock pick or \n" +
+            "something you can use to pick a lock.\n" +
+            "You're told unless you got money, no.\n" +
+            "You tell him you don't havae none and he walks off.\n" +
+            "That was totally useless.\n" +
+            "Press G to check the Cell Door\n" +
+            "press B to check out the Bed");
+        if (Input.GetKeyDown(KeyCode.G)) { currentState = States.cellDoor; }
+        if (Input.GetKeyDown(KeyCode.B)) { currentState = States.bed; }
     }
 }
