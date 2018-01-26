@@ -5,7 +5,7 @@ using UnityEngine;
 public class Adventure : MonoBehaviour
 {
 
-    public enum States { cell, window, gate, bed, sleep };
+    public enum States { cell, window, cellDoor, bed, sleep, call, insult, search, bribeCellDoor, bribeWindow };
     public States currentState;
 
 
@@ -29,11 +29,31 @@ public class Adventure : MonoBehaviour
         {
             Bed();
         }
-        else if (currentState == States.sleep)
+        else if (currentState == States.window)
         {
-            Sleep();
+            Window();
         }
-    }
+        else if (currentState == States.cellDoor)
+        {
+            CellDoor();
+        }
+        else if (currentState == States.insult)
+        {
+            Insult();
+        }
+        else if (currentState == States.search)
+        {
+            Search();
+        }
+        else if (currentState == States.bribeCellDoor)
+        {
+            GuardBribe();
+        }
+        else if (currentState == States.bribeWindow)
+        {
+            BribeKid();
+        }
+    } 
     private void Cell() {
         print("You are in a Jail cell. It's dirty, disgusting and smells revolting. \n" +
             "You are trying to escape, look all around and find a way. \n" +
@@ -42,7 +62,7 @@ public class Adventure : MonoBehaviour
             "There is a Bed. \n" +
             "Press W for Widnow, G for Gate, B for Bed. \n");
         if (Input.GetKeyDown(KeyCode.W)) { currentState = States.window; }
-        if (Input.GetKeyDown(KeyCode.G)) { currentState = States.gate; }
+        if (Input.GetKeyDown(KeyCode.G)) { currentState = States.cellDoor; }
         if (Input.GetKeyDown(KeyCode.B)) { currentState = States.bed; }
     }
 
@@ -52,11 +72,73 @@ public class Adventure : MonoBehaviour
             "Sleep or search the bed at the risk of your own health.\n" +
             "Press W to go to the window, S to search, N to sleep, G to look at the gate.");
         if (Input.GetKeyDown(KeyCode.W)) { currentState = States.window; }
-        if (Input.GetKeyDown(KeyCode.G)) { currentState = States.gate; }
+        if (Input.GetKeyDown(KeyCode.G)) { currentState = States.cellDoor; }
         if (Input.GetKeyDown(KeyCode.N)) { currentState = States.sleep; }
+        if (Input.GetKeyDown(KeyCode.S)) { currentState = States.search; }
     }
-    private void Sleep()
+    private void Window()
     {
-        print("You take a nap despite the risk of gettind AIDS or something. When you awake there's a message on the cieling.");
+        print("You look outside through a small window to a busy street.\n" +
+            "No one looks at you, they just move on in hordes.\n" +
+            "You spy a young street urchin. Probably has no respect for the law.\n" +
+            "Like you.\n" +
+            "If you call to him, maybe he can help. Or maybe not.\n" +
+            "Press C to call to him, G for the Gate and B to go the the Bed");
+        if (Input.GetKeyDown(KeyCode.C)) { currentState = States.call; }
+        if (Input.GetKeyDown(KeyCode.G)) { currentState = States.cellDoor; }
+        if (Input.GetKeyDown(KeyCode.B)) { currentState = States.bed; }
+    }
+    private void CellDoor()
+    {
+        print("You're infront of cell door. \n" +
+            "Not much here, to be honest.\n" +
+            " You can see the guardsman on patrol. That's about it.\n" +
+            "You notice the lock is easily pickable. Only if you had a lock pick.\n" +
+            "A Guardsman passes. \n"
+            "Moving on, Press B for the Bed, W for the Window, \n" +
+            "and I to insult the passing Guard.");
+        if (Input.GetKeyDown(KeyCode.W)) { currentState = States.window; }
+        if (Input.GetKeyDown(KeyCode.G)) { currentState = States.cellDoor; }
+        if (Input.GetKeyDown(KeyCode.I)) { currentState = States.insult; }
+    }
+    private void Insult()
+    {
+        print("The Guardsman stabs you without hesitation.\n" +
+            "You took a calculate risk, but man, \n" +
+            "you suck at math. You'r dead.\n" +
+            "Press C to go the beginning Cell. \n" +
+            "Try not to do that again.");
+        if (Input.GetKeyDown(KeyCode.C)) { currentState = States.cell; }
+    }
+    private void Search()
+    {
+        print("You riffled through the bed and found . . .\n" +
+            "Oh hey, a gold coint!\n" +
+            "maybe you can bribe someone!\n" +
+            "Maybe the guard or a kid at the window\n" +
+            "Pess G for the Cell Door, W for the Window.");
+        if (Input.GetKeyDown(KeyCode.W)) { currentState = States.bribeWindow; }
+        if (Input.GetKeyDown(KeyCode.G)) { currentState = States.bribeCellDoor; }
+
+    }
+    private void GuardBribe()
+    {
+        print("You wait for a passing guard and try to bribe him. \n" +
+            "he responds by stabbing you with a spear and taking the coin anyway.\n" +
+            "Smooth move Ex Lax.\n" +
+            "Press C to start againt.");
+        if (Input.GetKeyDown(KeyCode.C)) { currentState = States.cell; }
+    }
+    private void BribeKid()
+    {
+        print("You call for a kid and one comes over. \n" +
+            "You offer them the gold coint for a lock pick.\n" +
+            "The kind snatches the coin and says you got a deal.\n" +
+            "It took until Nightfall until you got the lock pick.\n" +
+            "The lock was trivial at best and you quickly heard a *click*.\n" +
+            "Free at last you swung the bear door open and ran . . .\n" +
+            "into a guards sword. You died. Better luck next time mate.\n" +
+            "Press C to start over again.");
+        if (Input.GetKeyDown(KeyCode.C)) { currentState = States.cell; }
     }
 }
