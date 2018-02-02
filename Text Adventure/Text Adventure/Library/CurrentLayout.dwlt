@@ -412,7 +412,7 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Scripts
+    - Assets/audio
   m_ViewMode: 0
   m_StartGridSize: 64
   m_LastFolders: []
@@ -452,7 +452,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000012260000182600001a260000
+    m_ExpandedIDs: 0000000012260000182600001a26000084260000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
