@@ -20,7 +20,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 950, y: 492}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -91,7 +91,7 @@ MonoBehaviour:
   m_MinSize: {x: 911, y: 442}
   m_MaxSize: {x: 22006, y: 10021}
   vertical: 0
-  controlID: 63
+  controlID: 41
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -135,7 +135,7 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 442}
   m_MaxSize: {x: 4002, y: 8042}
   vertical: 1
-  controlID: 22
+  controlID: 42
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -289,9 +289,9 @@ MonoBehaviour:
     height: 926
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 70c5fbff
-    m_LastClickedID: -277136
-    m_ExpandedIDs: e4c5fbff26cbfbff74faffffb6ffffff00000000
+    m_SelectedIDs: 064d0000
+    m_LastClickedID: 19718
+    m_ExpandedIDs: 3e47faff5698faff36b6faff02d2faff1203fbff3c1efbff7a3bfbff8e7cfbfffea8fbffd0b2fbff18bbfbff46c4fbff4ad1fbff562afcff082dfcff8cbdfcff04befcffdacefcffecd2fcff420efdff5015fdff7e1afdff1627fdff322ffdff063efdff5659fdffc8f9ffffb6ffffff00000000e439000088400000e8420000a04500004a46000086490000564c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -385,7 +385,7 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/audio
+    - Assets/Prefabs
   m_ViewMode: 0
   m_StartGridSize: 64
   m_LastFolders:
@@ -397,7 +397,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 08260000
     m_LastClickedID: 9736
-    m_ExpandedIDs: 00000000122600001826000024260000342600004226000046260000502600007e260000
+    m_ExpandedIDs: 000000001a260000202600002c2600003c2600004a2600004e2600005826000086260000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -425,18 +425,18 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000122600001826000024260000342600004226000046260000502600007e260000
+    m_ExpandedIDs: 000000001a260000202600002c2600002e2600003c2600004a2600004e2600005826000086260000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Ball
-      m_OriginalName: Ball
+      m_Name: GameOver
+      m_OriginalName: GameOver
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 12356
+      m_UserData: 14760
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
       m_OriginalEventType: 0
@@ -583,14 +583,14 @@ MonoBehaviour:
     width: 906
     height: 465
   m_SceneLighting: 1
-  lastFramingTime: 3854.043474912837
+  lastFramingTime: 4176.099690834141
   m_2DMode: 1
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 2.1730375, y: -9.924782, z: 0}
+    m_Target: {x: 1.4450002, y: 0.75, z: 0}
     speed: 2
-    m_Value: {x: 2.1730375, y: -9.924782, z: 0}
+    m_Value: {x: 1.4450002, y: 0.75, z: 0}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -617,9 +617,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 53.14842
+    m_Target: 39.19485
     speed: 2
-    m_Value: 53.14842
+    m_Value: 39.19485
   m_Ortho:
     m_Target: 1
     speed: 2
