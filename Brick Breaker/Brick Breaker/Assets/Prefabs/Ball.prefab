@@ -37,7 +37,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1636143715056376}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.19, y: -2.25, z: -1}
+  m_LocalPosition: {x: -0.28, y: -6.62, z: -1}
   m_LocalScale: {x: 0.58560425, y: 0.58560425, z: 0.58560425}
   m_Children: []
   m_Father: {fileID: 0}
@@ -57,7 +57,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 6200000, guid: dfe4e514e9bf6de44bdff6710ccf273f, type: 2}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -90,6 +90,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hitSound: {fileID: 8300000, guid: 4050eb4a9b4eae14ba39a22dba8df54e, type: 3}
+  startSpeed: {x: 0, y: 13}
 --- !u!212 &212775734373636456
 SpriteRenderer:
   m_ObjectHideFlags: 1
