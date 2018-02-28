@@ -31,6 +31,11 @@ public class GameManager : MonoBehaviour {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex +1);
 
     }   
+
+    public void SoDone() {
+        print("Quit Game");
+        Application.Quit();
+    }
    
 
 }
