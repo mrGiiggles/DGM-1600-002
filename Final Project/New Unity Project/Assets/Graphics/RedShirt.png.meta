@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 386fc5de12c08614cb0c0b6bc97ba7f4
-timeCreated: 1519836510
+timeCreated: 1520006315
 licenseType: Pro
 TextureImporter:
   fileIDToRecycleName:
@@ -10,40 +10,40 @@ TextureImporter:
     21300006: RedShirt_down04
     21300008: RedShirt_down05
     21300010: RedShirt_down06
-    21300012: RedShirt_6
+    21300012: RedShirt_down07
     21300014: RedShirt_down08
-    21300016: RedShirt_8
-    21300018: RedShirt_9
-    21300020: RedShirt_10
-    21300022: RedShirt_11
-    21300024: RedShirt_12
-    21300026: RedShirt_13
-    21300028: RedShirt_14
-    21300030: RedShirt_15
-    21300032: RedShirt_16
-    21300034: RedShirt_17
-    21300036: RedShirt_18
-    21300038: RedShirt_19
-    21300040: RedShirt_20
-    21300042: RedShirt_21
-    21300044: RedShirt_22
-    21300046: RedShirt_23
-    21300048: RedShirt_24
-    21300050: RedShirt_25
-    21300052: RedShirt_26
-    21300054: RedShirt_27
-    21300056: RedShirt_28
-    21300058: RedShirt_29
-    21300060: RedShirt_30
-    21300062: RedShirt_31
-    21300064: RedShirt_32
-    21300066: RedShirt_33
-    21300068: RedShirt_34
-    21300070: RedShirt_35
-    21300072: RedShirt_36
-    21300074: RedShirt_37
-    21300076: RedShirt_38
-    21300078: RedShirt_39
+    21300016: RedShirt_up01
+    21300018: RedShirt_up02
+    21300020: RedShirt_up03
+    21300022: RedShirt_up04
+    21300024: RedShirt_up05
+    21300026: RedShirt_up06
+    21300028: RedShirt_up07
+    21300030: RedShirt_up08
+    21300032: RedShirt_side01
+    21300034: RedShirt_side02
+    21300036: RedShirt_side03
+    21300038: RedShirt_side04
+    21300040: RedShirt_side05
+    21300042: RedShirt_side06
+    21300044: RedShirt_side07
+    21300046: RedShirt_side08
+    21300048: RedShirt_upDiag01
+    21300050: RedShirt_upDiag02
+    21300052: RedShirt_upDiag03
+    21300054: RedShirt_upDiag04
+    21300056: RedShirt_upDiag05
+    21300058: RedShirt_upDiag06
+    21300060: RedShirt_upDiag07
+    21300062: RedShirt_upDiag08
+    21300064: RedShirt_downDiag01
+    21300066: RedShirt_downDiag02
+    21300068: RedShirt_downDiag03
+    21300070: RedShirt_downDiag04
+    21300072: RedShirt_downDiag05
+    21300074: RedShirt_downDiag06
+    21300076: RedShirt_downDiag07
+    21300078: RedShirt_downDiag08
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -155,7 +155,7 @@ TextureImporter:
         width: 15
         height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -169,7 +169,7 @@ TextureImporter:
         width: 15
         height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -183,7 +183,7 @@ TextureImporter:
         width: 15
         height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -197,7 +197,7 @@ TextureImporter:
         width: 15
         height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -211,7 +211,7 @@ TextureImporter:
         width: 15
         height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -225,13 +225,13 @@ TextureImporter:
         width: 15
         height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: RedShirt_6
+      name: RedShirt_down07
       rect:
         serializedVersion: 2
         x: 90
@@ -239,7 +239,7 @@ TextureImporter:
         width: 15
         height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -253,13 +253,13 @@ TextureImporter:
         width: 15
         height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: RedShirt_8
+      name: RedShirt_up01
       rect:
         serializedVersion: 2
         x: 0
@@ -267,13 +267,13 @@ TextureImporter:
         width: 15
         height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: RedShirt_9
+      name: RedShirt_up02
       rect:
         serializedVersion: 2
         x: 15
@@ -281,13 +281,13 @@ TextureImporter:
         width: 15
         height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: RedShirt_10
+      name: RedShirt_up03
       rect:
         serializedVersion: 2
         x: 30
@@ -295,13 +295,13 @@ TextureImporter:
         width: 15
         height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: RedShirt_11
+      name: RedShirt_up04
       rect:
         serializedVersion: 2
         x: 45
@@ -309,13 +309,13 @@ TextureImporter:
         width: 15
         height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: RedShirt_12
+      name: RedShirt_up05
       rect:
         serializedVersion: 2
         x: 60
@@ -323,13 +323,13 @@ TextureImporter:
         width: 15
         height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: RedShirt_13
+      name: RedShirt_up06
       rect:
         serializedVersion: 2
         x: 75
@@ -337,13 +337,13 @@ TextureImporter:
         width: 15
         height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: RedShirt_14
+      name: RedShirt_up07
       rect:
         serializedVersion: 2
         x: 90
@@ -351,13 +351,13 @@ TextureImporter:
         width: 15
         height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: RedShirt_15
+      name: RedShirt_up08
       rect:
         serializedVersion: 2
         x: 105
@@ -365,13 +365,13 @@ TextureImporter:
         width: 15
         height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: RedShirt_16
+      name: RedShirt_side01
       rect:
         serializedVersion: 2
         x: 0
@@ -379,13 +379,13 @@ TextureImporter:
         width: 15
         height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: RedShirt_17
+      name: RedShirt_side02
       rect:
         serializedVersion: 2
         x: 15
@@ -393,13 +393,13 @@ TextureImporter:
         width: 15
         height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: RedShirt_18
+      name: RedShirt_side03
       rect:
         serializedVersion: 2
         x: 30
@@ -407,13 +407,13 @@ TextureImporter:
         width: 15
         height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: RedShirt_19
+      name: RedShirt_side04
       rect:
         serializedVersion: 2
         x: 45
@@ -421,13 +421,13 @@ TextureImporter:
         width: 15
         height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: RedShirt_20
+      name: RedShirt_side05
       rect:
         serializedVersion: 2
         x: 60
@@ -435,13 +435,13 @@ TextureImporter:
         width: 15
         height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: RedShirt_21
+      name: RedShirt_side06
       rect:
         serializedVersion: 2
         x: 75
@@ -449,13 +449,13 @@ TextureImporter:
         width: 15
         height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: RedShirt_22
+      name: RedShirt_side07
       rect:
         serializedVersion: 2
         x: 90
@@ -463,13 +463,13 @@ TextureImporter:
         width: 15
         height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: RedShirt_23
+      name: RedShirt_side08
       rect:
         serializedVersion: 2
         x: 105
@@ -477,13 +477,13 @@ TextureImporter:
         width: 15
         height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: RedShirt_24
+      name: RedShirt_upDiag01
       rect:
         serializedVersion: 2
         x: 0
@@ -491,13 +491,13 @@ TextureImporter:
         width: 15
         height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: RedShirt_25
+      name: RedShirt_upDiag02
       rect:
         serializedVersion: 2
         x: 15
@@ -505,13 +505,13 @@ TextureImporter:
         width: 15
         height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: RedShirt_26
+      name: RedShirt_upDiag03
       rect:
         serializedVersion: 2
         x: 30
@@ -519,13 +519,13 @@ TextureImporter:
         width: 15
         height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: RedShirt_27
+      name: RedShirt_upDiag04
       rect:
         serializedVersion: 2
         x: 45
@@ -533,13 +533,13 @@ TextureImporter:
         width: 15
         height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: RedShirt_28
+      name: RedShirt_upDiag05
       rect:
         serializedVersion: 2
         x: 60
@@ -547,13 +547,13 @@ TextureImporter:
         width: 15
         height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: RedShirt_29
+      name: RedShirt_upDiag06
       rect:
         serializedVersion: 2
         x: 75
@@ -561,13 +561,13 @@ TextureImporter:
         width: 15
         height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: RedShirt_30
+      name: RedShirt_upDiag07
       rect:
         serializedVersion: 2
         x: 90
@@ -575,13 +575,13 @@ TextureImporter:
         width: 15
         height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: RedShirt_31
+      name: RedShirt_upDiag08
       rect:
         serializedVersion: 2
         x: 105
@@ -589,13 +589,13 @@ TextureImporter:
         width: 15
         height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: RedShirt_32
+      name: RedShirt_downDiag01
       rect:
         serializedVersion: 2
         x: 0
@@ -603,13 +603,13 @@ TextureImporter:
         width: 15
         height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: RedShirt_33
+      name: RedShirt_downDiag02
       rect:
         serializedVersion: 2
         x: 15
@@ -617,13 +617,13 @@ TextureImporter:
         width: 15
         height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: RedShirt_34
+      name: RedShirt_downDiag03
       rect:
         serializedVersion: 2
         x: 30
@@ -631,13 +631,13 @@ TextureImporter:
         width: 15
         height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: RedShirt_35
+      name: RedShirt_downDiag04
       rect:
         serializedVersion: 2
         x: 45
@@ -645,13 +645,13 @@ TextureImporter:
         width: 15
         height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: RedShirt_36
+      name: RedShirt_downDiag05
       rect:
         serializedVersion: 2
         x: 60
@@ -659,13 +659,13 @@ TextureImporter:
         width: 15
         height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: RedShirt_37
+      name: RedShirt_downDiag06
       rect:
         serializedVersion: 2
         x: 75
@@ -673,13 +673,13 @@ TextureImporter:
         width: 15
         height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: RedShirt_38
+      name: RedShirt_downDiag07
       rect:
         serializedVersion: 2
         x: 90
@@ -687,13 +687,13 @@ TextureImporter:
         width: 15
         height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: RedShirt_39
+      name: RedShirt_downDiag08
       rect:
         serializedVersion: 2
         x: 105
@@ -701,7 +701,7 @@ TextureImporter:
         width: 15
         height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
