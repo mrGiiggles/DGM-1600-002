@@ -212,6 +212,7 @@ GameObject:
   m_Component:
   - component: {fileID: 381172093}
   - component: {fileID: 381172092}
+  - component: {fileID: 381172094}
   m_Layer: 0
   m_Name: pot
   m_TagString: Untagged
@@ -268,12 +269,27 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 381172091}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.61, y: -2.88, z: 0}
+  m_LocalPosition: {x: 4.61, y: -2.99, z: 0}
   m_LocalScale: {x: 10.52378, y: 10.523784, z: 10.523784}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!70 &381172094
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 381172091}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.008241834, y: -0.0051511615}
+  m_Size: {x: 0.11291155, y: 0.13969767}
+  m_Direction: 0
 --- !u!1 &1542171677
 GameObject:
   m_ObjectHideFlags: 0
@@ -473,7 +489,7 @@ GameObject:
   - component: {fileID: 1971885390}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -545,6 +561,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
+  jump: 900
+  isGrounded: 1
 --- !u!50 &1971885388
 Rigidbody2D:
   serializedVersion: 4
@@ -577,8 +595,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_Size: {x: 1, y: 1}
+  m_Offset: {x: -0.010842085, y: 0}
+  m_Size: {x: 0.63137317, y: 1}
   m_Direction: 0
 --- !u!95 &1971885390
 Animator:
@@ -610,7 +628,7 @@ GameObject:
   - component: {fileID: 2029983741}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: c6fb58e10809cdc4eaaea2db1380384d
-timeCreated: 1520559487
-licenseType: Free
+timeCreated: 1520610479
+licenseType: Pro
 TextureImporter:
   fileIDToRecycleName:
     21300000: PlayerDown01
@@ -11,7 +11,7 @@ TextureImporter:
     21300008: PlayerDown02
     21300010: PlayerUp02
     21300012: PlayerLeftDash02
-    21300014: PlayerLeftDas02
+    21300014: PlayerrighttDash02
     21300016: PlayerDown03
     21300018: PlayerUp03
     21300020: PlayerLeft03
@@ -202,7 +202,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: PlayerLeftDas02
+      name: PlayerrighttDash02
       rect:
         serializedVersion: 2
         x: 50
