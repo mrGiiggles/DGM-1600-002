@@ -1,4 +1,4 @@
 sceneSetups:
-- path: C:/Users/bande/Documents/_Unity/DGM-1600-002/Final Project/New Unity Project/Assets/_Scenes/Scene01.unity
+- path: C:/Users/10826896/Documents/NBA/Final Project/New Unity Project/Assets/_Scenes/Scene01.unity
   isLoaded: 1
   isActive: 1
