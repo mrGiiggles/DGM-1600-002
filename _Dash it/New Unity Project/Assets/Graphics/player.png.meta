@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: c6fb58e10809cdc4eaaea2db1380384d
-timeCreated: 1520610479
-licenseType: Pro
+timeCreated: 1520727103
+licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: PlayerDown01
@@ -205,10 +205,10 @@ TextureImporter:
       name: PlayerrighttDash02
       rect:
         serializedVersion: 2
-        x: 50
-        y: 80
-        width: 12
-        height: 14
+        x: 49
+        y: 81
+        width: 14
+        height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -249,7 +249,7 @@ TextureImporter:
         serializedVersion: 2
         x: 34
         y: 64
-        width: 12
+        width: 13
         height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -261,9 +261,9 @@ TextureImporter:
       name: PlayerRight03
       rect:
         serializedVersion: 2
-        x: 51
+        x: 49
         y: 64
-        width: 12
+        width: 14
         height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
