@@ -215,7 +215,7 @@ GameObject:
   - component: {fileID: 381172094}
   - component: {fileID: 381172095}
   - component: {fileID: 381172096}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: pot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -271,7 +271,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 381172091}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.61, y: -2.6, z: 0}
+  m_LocalPosition: {x: 4.61, y: -2.86, z: 0}
   m_LocalScale: {x: 10.52378, y: 10.523784, z: 10.523784}
   m_Children: []
   m_Father: {fileID: 0}
@@ -340,11 +340,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4357435815884860, guid: a9349dc823cae354fbfbab6515de9dbd, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 1.94
+      value: 4.694
       objectReference: {fileID: 0}
     - target: {fileID: 4357435815884860, guid: a9349dc823cae354fbfbab6515de9dbd, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -1
+      value: -2.042
       objectReference: {fileID: 0}
     - target: {fileID: 4357435815884860, guid: a9349dc823cae354fbfbab6515de9dbd, type: 2}
       propertyPath: m_LocalPosition.z
@@ -381,6 +381,10 @@ Prefab:
     - target: {fileID: 4357435815884860, guid: a9349dc823cae354fbfbab6515de9dbd, type: 2}
       propertyPath: m_LocalScale.z
       value: 1.0077472
+      objectReference: {fileID: 0}
+    - target: {fileID: 1689612723540756, guid: a9349dc823cae354fbfbab6515de9dbd, type: 2}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a9349dc823cae354fbfbab6515de9dbd, type: 2}
@@ -537,7 +541,7 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.3
-  far clip plane: 1000
+  far clip plane: 100
   field of view: 60
   orthographic: 1
   orthographic size: 5
@@ -582,7 +586,7 @@ GameObject:
   - component: {fileID: 1971885388}
   - component: {fileID: 1971885387}
   - component: {fileID: 1971885390}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Player
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -721,7 +725,7 @@ GameObject:
   - component: {fileID: 2029983742}
   - component: {fileID: 2029983740}
   - component: {fileID: 2029983741}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -814,6 +818,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2130614024}
   - component: {fileID: 2130614023}
+  - component: {fileID: 2130614025}
   m_Layer: 0
   m_Name: gem
   m_TagString: Untagged
@@ -876,3 +881,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &2130614025
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2130614022}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 3028ea16d56548a4498e2ed656d6babc, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
