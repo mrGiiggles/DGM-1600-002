@@ -586,7 +586,7 @@ GameObject:
   - component: {fileID: 1971885388}
   - component: {fileID: 1971885387}
   - component: {fileID: 1971885390}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Player
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -660,7 +660,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
-  jump: 500
+  jump: 800
   isGrounded: 1
 --- !u!50 &1971885388
 Rigidbody2D:
