@@ -13,6 +13,8 @@ public class PlayerMovement : MonoBehaviour {
     private SpriteRenderer rend;
     public float jump;
     public bool isGrounded;
+    public float shootDistance;
+    private bool lookLeft;
 
     // Use this for initialization
     void Start() {
@@ -30,6 +32,7 @@ public class PlayerMovement : MonoBehaviour {
         if (Input.GetAxisRaw("Horizontal") < -0.1f) {
             //flip sprite renderer
             rend.flipX = true;
+            lookLeft = true;
 
         } else {
             //unflip
@@ -37,9 +40,11 @@ public class PlayerMovement : MonoBehaviour {
         }
         if (Input.GetButton("Fire1")) {
             anim.SetTrigger("ShootGo");
+
+            Shoot();
         }
 
-        if (Input.GetButtonDown("Jump")) {
+        /*if (Input.GetButtonDown("Jump")) {
             RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, 2.0f, 8);
             if (hit.collider != null) {
                 if (hit.collider.tag == "Ground") {
@@ -56,21 +61,47 @@ public class PlayerMovement : MonoBehaviour {
         }
      }
 
-    /*void OnCollisionEnter2D(Collision2D collision) {
-        if (collision.transform.tag == "Ground") {
-            isGrounded = false;
-        }
+    bool isGrounded() {
+        Vector2 position = transform.position;
+        Vector2 direction = Vector2.down;
+        float distance = 0.5f;
 
+        Debug.DrawRay(position, direction, Color.green, 0.25f);
+        RaycastHit2D hit = Physics2D.Raycast(poistion, direction, distance, groundlayer);
+            if (hit.collider != null) {
+            return true;
+        }
+        return false;
     }
 
-    void OnCollisionExit2D(Collision2D collision) {
-        if (collision.transform.tag == "Ground") {
-            isGrounded = false;
+        /*void OnCollisionEnter2D(Collision2D collision) {
+            if (collision.transform.tag == "Ground") {
+                isGrounded = false;
+            }
+
         }
-     }*/
 
-    public void ExDealDamage() {
+        void OnCollisionExit2D(Collision2D collision) {
+            if (collision.transform.tag == "Ground") {
+                isGrounded = false;
+            }
+         }*/
 
+  
+    void Shoot() {
+        Vector2 position = transform.position;
+        Vector2 direction;
+        if (lookLeft) {
+            direction = Vector2.left;
+        } else {
+            direction = Vector2.right;
+        }
+        //figure out direction
+        Debug.DrawRay(position, direction, Color.green, 0.25f);
+        RaycastHit2D = Physics2D.Raycast(position, direction, shootDistance);
+        if (hit.collider != null) {
+            //deal damage
+        }
     }
 }
     
