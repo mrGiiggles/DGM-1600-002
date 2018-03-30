@@ -27,7 +27,7 @@ public class PlayerMovement : MonoBehaviour {
         anim.SetFloat("HorizontalMove", Input.GetAxisRaw("Horizontal"));
         anim.SetFloat("VerticalMove", Input.GetAxisRaw("Vertical"));
 
-        if (Input.GetAxisRaw("HorizontalMove") <= 0.1 && Input.GetButton("Fire1")) {
+        if (Input.GetAxisRaw("HorizontalMove") <= -0.1 && Input.GetButton("Fire1")) {
             anim.SetTrigger("Play_Attack_Left");
 
         }
