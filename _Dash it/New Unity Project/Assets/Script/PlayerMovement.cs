@@ -27,14 +27,10 @@ public class PlayerMovement : MonoBehaviour {
         anim.SetFloat("HorizontalMove", Input.GetAxisRaw("Horizontal"));
         anim.SetFloat("VerticalMove", Input.GetAxisRaw("Vertical"));
 
-        /* if (Input.GetAxisRaw("Horizontal") < -0.1f) {
-             //flip sprite renderer
-             rend.flipX = true;
-         } else {
-             //unflip
-             rend.flipX = false;
+        if (Input.GetAxisRaw("HorizontalMove") <= 0.1 && Input.GetButton("Fire1")) {
+            anim.SetTrigger("Play_Attack_Left");
 
-         }*/
+        }
     }
 }
 

@@ -23,6 +23,7 @@ public class Health : MonoBehaviour {
             //Die
             //DeathParticle
             Instantiate(deathParticle,gameObject.transform.position,Quaternion.identity);
+            
 
 
             Destroy(gameObject);
