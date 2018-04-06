@@ -14,15 +14,20 @@ public class PlayerMovement : MonoBehaviour {
     public float swingDistance;
     public float minDistance;
     public float swingDamage;
-    
+    public Color shootColor;
+    private LineRenderer lineRenderer;
+    //public shootDistance;
+
 
     // Use this for initialization
     void Start() {
         rigid = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         rend = GetComponent<SpriteRenderer>();
+        lineRenderer = GetComponent<LineRenderer>();
 
-    }
+
+}
 
     // Update is called once per frame
     void Update() {
@@ -38,10 +43,34 @@ public class PlayerMovement : MonoBehaviour {
 
         }
     }
-    void Swing() {
+    /*void Shoot() {
         Vector2 position = transform.position;
         Vector2 direction;
+        if (lookleft) {
+            direction = Vector2.left;
+            position += new Vector2(-0.5f, 0);
+            lineRenderer.SetPosition(0, new Vector3(-0.5f, 0, 0));
+            lineRenderer.SetPosition(1, new Vector3(-10.5f, 0, 0));
+
+        } else {
+            direction = Vector2.right;
+            position += new Vector2(0.5f, 0);
+            lineRenderer.SetPosition(0, new Vector3(0.5f, 0, 0));
+            lineRenderer.SetPosition(1, new Vector3(10.5f, 0, 0));
+        }
         Debug.DrawRay(position, Vector2.left, Color.red, 0.25f);
+        lineRenderer.enabled = true;
+        RaycastHit2D hit = Physics2D.Raycast(position, direction, shootDistance);
+        if (hit.collider !+ null) {
+            Debug.Log(hit.collider.name);
+            if (hit. collider.GetComponent<Health>()) {
+                hit.collider.GetComponent<Health>().IncrementHealth(-2);
+            }
+        }
+        StartCoroutine(LaserOff());
     }
+    IEnumerator LaserOff() {
+
+    }*/
 }
 
