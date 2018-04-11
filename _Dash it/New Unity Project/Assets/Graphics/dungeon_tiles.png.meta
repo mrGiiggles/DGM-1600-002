@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 7dc84f7d60cb97d4cb5bcfed638ed265
-timeCreated: 1523153803
+timeCreated: 1523418994
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -92,6 +92,7 @@ TextureImporter:
     21300170: dungeon_tiles_68
     21300172: dungeon_tiles_69
     21300174: dungeon_tiles_70
+    21300176: dungeon_tiles_71
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -410,7 +411,7 @@ TextureImporter:
         serializedVersion: 2
         x: 80
         y: 260
-        width: 15
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1211,7 +1212,21 @@ TextureImporter:
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dungeon_tiles_71
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 336
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

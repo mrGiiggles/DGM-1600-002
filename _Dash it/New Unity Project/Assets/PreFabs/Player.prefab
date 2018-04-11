@@ -204,6 +204,7 @@ MonoBehaviour:
   swingDistance: 0
   minDistance: 0
   swingDamage: 0
+  shootColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!124 &124226189806013828
 Behaviour:
   m_ObjectHideFlags: 1
