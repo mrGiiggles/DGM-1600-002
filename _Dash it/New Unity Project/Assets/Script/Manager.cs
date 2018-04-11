@@ -5,8 +5,18 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class Manager : MonoBehaviour {
+    private static Manager instance = null;
     public Text scoreBoard;
     private int score;
+
+    void Awake() {
+        if (instance == null) {
+            instance = this.gameObject.GetComponent<Manager>() ;
+        } else if (instance != this) {         //if instance is not assigned
+            Destroy(this.gameObject);        // then assign instance to this obect
+        }                                    //then destroy this object
+        DontDestroyOnLoad(this.gameObject);
+    }
 
 
     public void IncrementScore(int value) {
@@ -19,5 +29,10 @@ public class Manager : MonoBehaviour {
         SceneManager.LoadScene(level);
 
 
+    }
+
+    public void QuitGame() {
+        Application.Quit();
+        Debug.Log("Done with the game");
     }
 }

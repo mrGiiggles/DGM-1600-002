@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/_Scenes/Level01.unity
+- path: C:/Users/10826896/Documents/NBA/_Dash it/New Unity Project/Assets/_Scenes/TitleScreen.unity
   isLoaded: 1
   isActive: 1

@@ -78,8 +78,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10277df79452c754aadac74a0fefe391, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  manager: {fileID: 0}
-  level: Level02
+  manager: {fileID: 114737657174039668, guid: f69d48598a408724fb8871e72e127d1c, type: 2}
+  level: Level03
 --- !u!212 &212409759116684360
 SpriteRenderer:
   m_ObjectHideFlags: 1
