@@ -6,16 +6,15 @@ public class Collectible : MonoBehaviour {
 
     [Range(1, 50)]
     public int value;
-    public Color colorTint;
-    private GameObject manager;
+    //public Color colorTint;
     public Manager myManager;
 
     private void Start() {
-        myManager = FindObjectOfType<Manager>().GetComponent<Manager>();
+        myManager = GameObject.Find("GameManager").GetComponent<Manager>();
     }
 
     private void OnTriggerEnter2D(Collider2D collider) {
-        //myManager.IncrementScore(value);
+        myManager.IncrementScore(value);
         //THIS IS ALSO POSSIBLY THE PROBLEM CHILD
         Destroy(gameObject);
         }

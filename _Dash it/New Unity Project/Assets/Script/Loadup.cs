@@ -10,7 +10,7 @@ public class Loadup : MonoBehaviour {
     public string level;
 
     private void Start() {
-        manager = GameObject.Find("Manager").GetComponent<Manager>();
+        manager = GameObject.Find("GameManager").GetComponent<Manager>();
     }
 
     private void OnTriggerEnter2D(Collider2D collider) {
