@@ -15,11 +15,10 @@ public class Collectible : MonoBehaviour {
     }
 
     private void OnTriggerEnter2D(Collider2D collider) {
-        myManager.IncrementScore(value);
+        //myManager.IncrementScore(value);
+        //THIS IS ALSO POSSIBLY THE PROBLEM CHILD
         Destroy(gameObject);
-        
-        
-    }
+        }
 
 
 }
