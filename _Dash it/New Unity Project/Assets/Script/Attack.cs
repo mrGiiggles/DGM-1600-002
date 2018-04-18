@@ -43,13 +43,12 @@ public class Attack : MonoBehaviour {
           StartCoroutine(LaserOff());
       }
       IEnumerator LaserOff() {
+      yield return new WaitForSeconds(swingTime);
+      lineRenderer.enable = false;
 
       }
 
-          if (Input.GetButton("Fire1")) {
-              attacking.Swing();
-
-          }
+      
        */
 
 }

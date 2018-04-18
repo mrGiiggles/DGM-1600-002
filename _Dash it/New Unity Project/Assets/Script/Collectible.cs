@@ -19,5 +19,11 @@ public class Collectible : MonoBehaviour {
         Destroy(gameObject);
         }
 
-
+    private void OnCollisionEnter2D(Collision2D collider) {
+        if (collider.gameObject.CompareTag("Player")) {
+            myManager.IncrementScore(value);
+            //THIS IS ALSO POSSIBLY THE PROBLEM CHILD
+            Destroy(gameObject);
+        }
+    }
 }

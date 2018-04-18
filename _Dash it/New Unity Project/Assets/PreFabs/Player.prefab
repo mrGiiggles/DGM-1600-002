@@ -141,7 +141,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 1066164572095060}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: bd6bf70f8304e414995401e12cc93ee4, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -201,10 +201,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2.5
-  swingDistance: 0
-  minDistance: 0
-  swingDamage: 0
-  shootColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!124 &124226189806013828
 Behaviour:
   m_ObjectHideFlags: 1
