@@ -1,11 +1,12 @@
 fileFormatVersion: 2
 guid: d441a2876a406d8439d76329eb4c9fba
-timeCreated: 1522640454
+timeCreated: 1524006001
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: Damage
     21300002: Health
+    21300004: Diammond
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -85,7 +86,7 @@ TextureImporter:
         width: 7
         height: 7
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -98,6 +99,20 @@ TextureImporter:
         y: 149
         width: 7
         height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Diammond
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 127
+        width: 24
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
