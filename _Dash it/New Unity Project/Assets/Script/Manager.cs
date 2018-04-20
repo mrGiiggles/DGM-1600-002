@@ -8,6 +8,7 @@ public class Manager : MonoBehaviour {
     private static Manager instance = null;
     public Text scoreBoard;
     private int score;
+    private ouch;
 
     void Awake() {
         if (instance == null) {

@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: 9c609129988e4234b89f8442532952a3
-timeCreated: 1522200327
-licenseType: Free
+timeCreated: 1524239063
+licenseType: Pro
 TextureImporter:
   fileIDToRecycleName:
     21300000: Player_Attack_0
@@ -83,8 +83,8 @@ TextureImporter:
         y: 98
         width: 28
         height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.22915159, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

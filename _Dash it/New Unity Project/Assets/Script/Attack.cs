@@ -3,12 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Attack : MonoBehaviour {
-    /*  public float swingDistance;
-      public float minDistance;
-      public float swingDamage;
-      public Color shootColor;
-      private LineRenderer lineRenderer;
-      private Animator anim;
+    public float swingDistance;
+    public float minDistance;
+    public float shootDamage;
+    public float shootTime;
+    public Color shootColor;
+    private LineRenderer lineRenderer;
+    private Animator anim;
+    private bool lookLeft;
 
       // Use this for initialization
       void Start () {
@@ -19,7 +21,7 @@ public class Attack : MonoBehaviour {
       void Swing() {
           Vector2 position = transform.position;
           Vector2 direction;
-          if (lookleft) {
+          if (lookLeft) {
               direction = Vector2.left;
               position += new Vector2(-0.5f, 0);
               lineRenderer.SetPosition(0, new Vector3(-0.5f, 0, 0));
@@ -43,12 +45,12 @@ public class Attack : MonoBehaviour {
           StartCoroutine(LaserOff());
       }
       IEnumerator LaserOff() {
-      yield return new WaitForSeconds(swingTime);
-      lineRenderer.enable = false;
+      yield return new WaitForSeconds(shootTime);
+      lineRenderer.enabled = false;
 
       }
 
       
-       */
+       
 
 }
