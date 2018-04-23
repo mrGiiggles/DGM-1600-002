@@ -1,10 +1,13 @@
 fileFormatVersion: 2
 guid: 9c609129988e4234b89f8442532952a3
-timeCreated: 1524239063
-licenseType: Pro
+timeCreated: 1524456405
+licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: Player_Attack_0
+    21300002: Player_Attack_Down
+    21300004: Player_Attack_Right
+    21300006: Player_Attack_up
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -85,6 +88,48 @@ TextureImporter:
         height: 14
       alignment: 9
       pivot: {x: 0.22915159, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Player_Attack_Down
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 56
+        width: 14
+        height: 27
+      alignment: 9
+      pivot: {x: 0.4844976, y: 0.6929211}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Player_Attack_Right
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 60
+        width: 24
+        height: 15
+      alignment: 9
+      pivot: {x: 0.7441657, y: 0.4710622}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Player_Attack_up
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 14
+        width: 15
+        height: 23
+      alignment: 9
+      pivot: {x: 0.45659283, y: 0.2640913}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
