@@ -21,8 +21,20 @@ public class Destructables : MonoBehaviour {
             ParticleSystem particle = Instantiate(deathParticle, gameObject.transform.position, Quaternion.identity);
             Destroy(particle, particle.main.duration);
             Destroy(gameObject, deathParticle.main.duration);
-            
+
         }
 
+    }
+    private void OnTriggerEnter2D(Collider2D collision) {
+        Debug.Log("collided");
+        healthScript.health--;
+        if (healthScript.health <= 0) {
+            //Die
+            //DeathParticle
+            ParticleSystem particle = Instantiate(deathParticle, gameObject.transform.position, Quaternion.identity);
+            Destroy(particle, particle.main.duration);
+            Destroy(gameObject, deathParticle.main.duration);
+
+        }
     }
 }

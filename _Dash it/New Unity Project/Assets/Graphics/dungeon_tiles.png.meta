@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 7dc84f7d60cb97d4cb5bcfed638ed265
-timeCreated: 1523893626
+timeCreated: 1524496231
 licenseType: Pro
 TextureImporter:
   fileIDToRecycleName:
@@ -93,6 +93,7 @@ TextureImporter:
     21300172: dungeon_tiles_69
     21300174: dungeon_tiles_70
     21300176: dungeon_tiles_71
+    21300178: Chest
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -1227,6 +1228,20 @@ TextureImporter:
         height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chest
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 257
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

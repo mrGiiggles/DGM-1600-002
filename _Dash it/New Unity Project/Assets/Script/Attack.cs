@@ -6,7 +6,6 @@ public class Attack : MonoBehaviour {
     public float swingDistance;
     public float minDistance;
     public float shootDamage;
-    public float shootTime;
     public Color shootColor;
     private LineRenderer lineRenderer;
     private Animator anim;
@@ -42,13 +41,9 @@ public class Attack : MonoBehaviour {
                   hit.collider.GetComponent<Health>().IncrementHealth(-2);
               }
           }
-          StartCoroutine(LaserOff());
+         //StartCoroutine(LaserOff());
       }
-      IEnumerator LaserOff() {
-      yield return new WaitForSeconds(shootTime);
-      lineRenderer.enabled = false;
-
-      }
+      
 
       
        
