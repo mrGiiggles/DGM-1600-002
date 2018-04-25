@@ -14,14 +14,20 @@ public class Containers : MonoBehaviour {
                 item.AddComponent<Rigidbody2D>();
             }
             //item collider isn't a trigger
+
             if (!item.GetComponent<Collider2D>()) {
                 item.AddComponent<CapsuleCollider2D>();
             } else {
                 item.GetComponent<Collider2D>().isTrigger = false;
             }
-
+            //LimboChanger(item);
         }
 
     }
+    /* IEnumerator LimboChanger(GameObject item) {
+        
+        yield return new WaitForSeconds(2);
+        item.layer = LayerMask.NameToLayer("Item");
+    }*/
 }
 

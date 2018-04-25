@@ -20,7 +20,7 @@ public class Destructables : MonoBehaviour {
             //DeathParticle
             ParticleSystem particle = Instantiate(deathParticle, gameObject.transform.position, Quaternion.identity);
             Destroy(particle, particle.main.duration);
-            Destroy(gameObject, deathParticle.main.duration);
+            Destroy(gameObject);
 
         }
 
@@ -31,9 +31,10 @@ public class Destructables : MonoBehaviour {
         if (healthScript.health <= 0) {
             //Die
             //DeathParticle
+            GetComponent<Containers>().Drop();
             ParticleSystem particle = Instantiate(deathParticle, gameObject.transform.position, Quaternion.identity);
             Destroy(particle, particle.main.duration);
-            Destroy(gameObject, deathParticle.main.duration);
+            Destroy(gameObject);
 
         }
     }
