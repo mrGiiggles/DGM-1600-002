@@ -23,6 +23,7 @@ GameObject:
   - component: {fileID: 114240695916833700}
   - component: {fileID: 61372727453525720}
   - component: {fileID: 50023717828042200}
+  - component: {fileID: 114701616724568804}
   m_Layer: 9
   m_Name: Gem Red
   m_TagString: Untagged
@@ -37,7 +38,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1034032371480020}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.493, y: 0.795, z: 0}
+  m_LocalPosition: {x: -4.3423796, y: 2.394198, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -101,6 +102,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   value: 1
   myManager: {fileID: 0}
+--- !u!114 &114701616724568804
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1034032371480020}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 477155742b1697f4e95820ead541892a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hitSound: {fileID: 8300000, guid: 24e62405ef61f834f97df569c5d54873, type: 3}
 --- !u!212 &212136379404470324
 SpriteRenderer:
   m_ObjectHideFlags: 1
